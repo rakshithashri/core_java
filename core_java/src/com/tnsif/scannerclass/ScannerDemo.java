@@ -10,7 +10,7 @@ public class ScannerDemo {
 		Scanner ob = new Scanner(System.in);
 		int id = ob.nextInt();
 		if(ob.hasNextInt()) {
-			System.out.println(id)
+			System.out.println(id);
 		}
 		String name = ob.nextLine();
 		// to read a name
