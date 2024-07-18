@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		        // Create a BankAccount instance
+		        
 		        BankAccount account = new BankAccount(12345, 1000.00);
 		        try {
 		            account.deposit(500.00);
@@ -26,7 +26,7 @@ public class Main {
 		            account.displayBalance();
 		        }
 
-		        // Create a SavingsAccount instance
+		        
 		        SavingsAccount savingsAccount = new SavingsAccount(67890, 1000.00, 200.00);
 		        try {
 		            savingsAccount.deposit(300.00);
